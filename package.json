@@ -1,0 +1,35 @@
+{
+  "name": "study_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wustzhaohui/study_demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wustzhaohui/study_demo/issues"
+  },
+  "homepage": "https://github.com/wustzhaohui/study_demo#readme",
+"devDependencies": {
+  "clean-webpack-plugin": "^0.1.19",
+  "css-loader": "^1.0.0",
+  "file-loader": "^2.0.0",
+  "html-webpack-plugin": "^3.2.0",
+  "vue-loader": "^14.2.2",
+  "vue-template-compiler": "^2.5.17",
+  "webpack-cli": "^3.1.0",
+  "webpack-dev-server": "^3.1.5"
+},
+"dependencies": {
+  "vue": "^2.5.17",
+  "vue-router": "^3.0.1",
+  "webpack": "^4.17.1"
+}
+}
